@@ -39,6 +39,9 @@ class LinkedList(object):
     def find(self, val):
         # TODO: find the first item with a given value
         item = self.head
+        while (item != None and item.get_data() != val):
+            item = item.get_next()
+        return item
 
         return None
 
