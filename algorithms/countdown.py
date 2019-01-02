@@ -8,7 +8,6 @@ def countdown(x):
     else:
         print(x, " ... ")
         countdown(x-1) 
-        return
 
 
 countdown(5)
