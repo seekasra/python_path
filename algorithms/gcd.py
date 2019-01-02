@@ -3,13 +3,11 @@
 
 
 def gcd(a, b):
-    while (1 == 1):
-        if (a%b == 0):
-            return b
-        else:
+    while (a%b != 0):
             t = a
             a = b
             b = t%b
+    return b
         
 # try out the function with a few examples
 print(gcd(60, 96))  # should be 12
