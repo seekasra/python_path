@@ -4,11 +4,10 @@ from collections import deque
 # TODO: create a new empty deque object that will function as a queue
 queue = deque()
 
-
 # TODO: add some items to the queue
 
 
-queue.append(10)
+queue.append(1)
 queue.append(11)
 queue.append(12)
 queue.append(13)
