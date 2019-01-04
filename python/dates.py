@@ -15,9 +15,9 @@ def main():
   print("date commponents", today.day, today.month, today.year)
   
   # retrieve today's weekday (0=Monday, 6=Sunday)
-  #print("Today's weekday number is: ", today.weekday())
-  #day = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-  #print("Today is :", day[today.weekday()], "!" )
+  print("Today's weekday number is: ", today.weekday())
+  day = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+  print("Today is :", day[today.weekday()], "!" )
   
   ## DATETIME OBJECTS
   # Get today's date from the datetime class
