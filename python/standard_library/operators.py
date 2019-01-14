@@ -2,7 +2,7 @@
 
 
 
-ages = list(range(50))
+ages = list(range( 5, 50, 3))
 for age in ages: 
     isAdult = age > 17
     print(f"{age} is not an adult!") if not isAdult else ""
